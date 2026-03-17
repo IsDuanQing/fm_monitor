@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Deb</class>
+ <widget class="QWidget" name="Deb">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>442</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>调  试  界  面</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="rec_edi">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>57</y>
+     <width>451</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear_bt">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>101</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清除窗口</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="send_bt">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>360</y>
+     <width>171</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>360</y>
+     <width>111</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清除发送区</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="send_edi">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>305</y>
+     <width>451</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
