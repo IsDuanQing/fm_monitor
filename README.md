@@ -25,7 +25,4 @@
 
 - [InformationShow/README.md](InformationShow/README.md)
 
-## 仓库说明
 
-- 本仓库除 `InformationShow` 外，还包含其他 Qt 相关练习或测试项目
-- 某些文件如 `.pro.user` 属于本地 Qt Creator 配置文件，可能因个人环境不同而变化
